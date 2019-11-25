@@ -1,0 +1,32 @@
+
+
+body{
+background-image: url(IMG_0142.JPG)
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 34px;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color:grey;
+}
+h2{
+  font-family: verdana;
+  font-size: 30px;
+  color: white;
+}
+ul{
+  font-family: verdana;
+  font-size: 12px;
+  color: black;
+}
+
+li{
+  font-family: verdana;
+  font-size: 12px
+  color: white;
+}

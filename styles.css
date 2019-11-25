@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+
+body{
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.index_main_section{
+background-color: green;
+ transform: rotate(270deg);
+  width: 100%;
+   height: auto;
+
+}
+.seconndpage{
+
+ transform: rotate(90deg);
+   background-color: green;
+  width: 100%;
+   height: auto;
+
+}
+.thirddpage{
+  background-color: green;
+
+ transform: rotate(20deg);
+  width: 100%;
+   height: auto;
+}
+.fourthhpage{
+  background-color: green;
+ transform: rotate(180deg);
+  width: 100%;
+   height: auto;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 34px;
+}
+
+p {
+  font-family: 'Public Sans', sans-serif; ;
+  font-size: 20px;
+  color:green;
+}
+
+h2{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+ul{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: green;
+
+}
+
+li{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  color: white;
+  list-style-type: none;
+
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+
+}
