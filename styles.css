@@ -1,65 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
 
 body{
-
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
 }
 .flex-container {
   display: flex;
   flex-direction: row;
 }
 .index_main_section{
-background-color: green;
- transform: rotate(270deg);
+  background-color: black;
   width: 100%;
    height: auto;
 
 }
 .seconndpage{
-
- transform: rotate(90deg);
-   background-color: green;
+   background-color:black;
   width: 100%;
    height: auto;
 
 }
 .thirddpage{
-  background-color: green;
-
- transform: rotate(20deg);
+  background-color: black;
   width: 100%;
    height: auto;
 }
 .fourthhpage{
-  background-color: green;
- transform: rotate(180deg);
+  background-color: black;
   width: 100%;
    height: auto;
+ }
+
+
+.rotate{
+  transform: rotateZ(90deg);
+}
+
+.padding{
+  padding: 15px;
+  padding-left: 5px;
+}
+
+.responsiveness {
+  width: 100%;
+}
+
+.margin{
+ margin-top: 5px;
+ margin-bottom: 10px;
+ 
 }
 h1 {
   color: black;
   text-align: center;
-  font-size: 34px;
+  font-size: 45px;
+  text-align: center;
 }
 
 p {
   font-family: 'Public Sans', sans-serif; ;
-  font-size: 20px;
+  font-size: 25px;
   color:green;
 }
 
 h2{
   font-family: 'Public Sans', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   color: white;
 }
 
 ul{
   font-family: 'Public Sans', sans-serif;
-  font-size: 12px;
+  font-size: 30px;
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px;
   background: green;
 
 }
@@ -67,10 +86,9 @@ ul{
 li{
   font-family: 'Public Sans', sans-serif;
   font-size: 12px;
-  color: white;
+  color: black;
   list-style-type: none;
-
-
+  grid-row: auto;
 }
 
 a{
@@ -78,4 +96,13 @@ a{
   text-decoration: none;
   font-size: 2em;
 
+}
+
+.hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
